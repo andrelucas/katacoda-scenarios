@@ -14,8 +14,8 @@ In the third host terminal:
 
 `docker run -d                                           \
   --name=storageos                                       \
-  --env=HOSTNAME=[[HOST_IP]]                             \
-  --env=ADVERTISE_IP=[[HOST_IP]]                         \
+  --env=HOSTNAME=host03                                  \
+  --env=ADVERTISE_IP=[[HOST3_IP]]                        \
   --env=JOIN=[[HOST_IP]]                                 \
   --net=host                                             \
   --pid=host                                             \

@@ -19,7 +19,7 @@ In the first terminal:
 
 `docker run -d                                           \
   --name=storageos                                       \
-  --env=HOSTNAME=[[HOST_IP]]                             \
+  --env=HOSTNAME=host01                                  \
   --env=ADVERTISE_IP=[[HOST_IP]]                         \
   --env=JOIN=[[HOST_IP]]                                 \
   --net=host                                             \

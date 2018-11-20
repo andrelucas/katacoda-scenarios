@@ -13,7 +13,7 @@ are loaded.
            -v /sys:/sys:rshared              \
            storageos/init:0.1`{{execute T1}}
 
-Now you can install the StorageOS node container on each host.
+Now you can install the StorageOS node container on the host.
 
 In the first terminal:
 

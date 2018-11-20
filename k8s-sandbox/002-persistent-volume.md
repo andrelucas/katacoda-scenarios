@@ -24,7 +24,7 @@ You can see that the PersistentVolumeClaim claimName has been set to fast0001
 
 Run the command to see the PersistentVolumeClaim definition. 
 
-`cat storageos-pvc.yaml`
+`cat storageos-pvc.yaml`{{execute}}
 
 Notice that the PersistentVolumeClaim name is fast0001.
 

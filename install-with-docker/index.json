@@ -19,12 +19,8 @@
         "text": "002-installation.md"
       },
       {
-        "title": "Cluster health",
-        "text": "003-cluster-health.md"
-      },
-      {
         "title": "Provision and mount a volume",
-        "text": "004-provision-volume.md"
+        "text": "003-provision-volume.md"
       }
     ],
     "finish": {

@@ -1,5 +1,12 @@
-For this tutorial we will use the StorageOS CLI to explore the cluster. This is
-already installed; run `storageos --version`{{execute}} to check.
+For this tutorial we will use the StorageOS CLI to explore the cluster. 
+
+Install the CLI
+
+`curl -sSLo storageos https://github.com/storageos/go-cli/releases/download/1.0.0/storageos_linux_amd64 && chmod +x storageos && sudo mv storageos /usr/local/bin/`{{execute}}
+
+and set the environment variables so you can connect to the cluster:
+
+`export STORAGEOS_USERNAME=storageos STORAGEOS_PASSWORD=storageos STORAGEOS_HOST=[[HOST_IP]]`{{execute}}
 
 Open terminals on the second and third hosts:
 

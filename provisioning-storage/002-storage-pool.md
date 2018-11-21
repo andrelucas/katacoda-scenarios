@@ -8,4 +8,4 @@ You can see more detail about the pool by inspecting the JSON configuration:
 
 `storageos pool inspect default`{{execute}}
 
-The storage pool contains `host01`, `host02` and `host03` under `controllerNames`.
+The storage pool contains `host01`, `host02` and `host03` under `name`.

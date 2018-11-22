@@ -12,6 +12,11 @@ You can either login to the WebGUI or you can login on the command line
 
 https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/
 
+If you log into the WebGUI as the devUser you will be automatically put into
+the `restricted` namespace. You can then create a volume using the GUI. 
+
+Alternatively login as devUser using the CLI.
+
 `storageos login [[HOST_IP]]`{{execute}}
 
 and create and list volumes in `restricted`:

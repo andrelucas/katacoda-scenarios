@@ -24,7 +24,7 @@ for more information.
 Create a Cluster ID that allows all the StorageOS containers to join the same
 cluster.
 
-`CLUSTER_ID=$(ssh root@host01 "storageos cluster create")`
+`CLUSTER_ID=$(ssh root@host01 "storageos cluster create")`{{execute T1}}
 
 Now that we have a cluster ID and kernel modules loaded we can start running StorageOS containers or each host. 
 

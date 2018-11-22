@@ -3,9 +3,14 @@ Admins can grant access to namespaces to users with simple Attribute-Based Acces
 Create a policy to allow the `dev` group to access the `restricted` namespace:
 
 `storageos policy create --group dev --namespace restricted`{{execute}}
+
 `storageos policy ls`{{execute}}
 
 Since `devUser` is in the `dev` group, you can login as `devUser`:
+
+You can either login to the WebGUI or you can login on the command line
+
+https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/
 
 `storageos login [[HOST_IP]]`{{execute}}
 

@@ -9,7 +9,7 @@ You can see more detail about the pool by inspecting the JSON configuration:
 
 `storageos pool inspect default`{{execute}}
 
-The storage pool contains `host01`, `host02` and `host03` under `name`.
+The storage pool contains `host01`, `host02` and `host03` under `name`
 
 You can also view and modify storage pools from the GUI
 https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/#/pools

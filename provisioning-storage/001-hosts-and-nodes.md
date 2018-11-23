@@ -17,5 +17,5 @@ you to work with.
 
 You can also use the GUI to see the nodes and their health. Just use the link
 below and login as `user: storageos` `password: storageos`
-https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/#/nodes
+https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/#/login
 

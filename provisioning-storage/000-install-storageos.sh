@@ -1,6 +1,6 @@
-ssh root@host01 '/opt/enable-lio.sh' 2>&1 /opt/node1
-ssh root@host02 '/opt/enable-lio.sh' 2>&1 /opt/node2
-ssh root@host03 '/opt/enable-lio.sh' 2>&1 /opt/node3
+ssh root@host01 '/opt/enable-lio.sh' &> /opt/node1
+ssh root@host02 '/opt/enable-lio.sh' &> /opt/node2
+ssh root@host03 '/opt/enable-lio.sh' &> /opt/node3
 
 CLUSTER_ID=$(ssh root@host01 "storageos cluster create")
 

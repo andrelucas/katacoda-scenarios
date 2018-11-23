@@ -1,8 +1,9 @@
-Once the cluster is established, StorageOS creates a default storage pool from all the nodes in the cluster:
+Once the cluster is established, StorageOS creates a default storage pool, by
+aggregating storage from the underlying nodes in the cluster.
 
 `storageos pool ls --format "table {{.Name}}\t{{.Nodes}}\t{{.Total}}"`{{execute}}
 
-Each node contributes about 15GB to the pool, so the pool has 45GB of total capacity.
+Each node contributes about 47GB to the pool, so the pool has 142GB of total capacity.
 
 You can see more detail about the pool by inspecting the JSON configuration:
 

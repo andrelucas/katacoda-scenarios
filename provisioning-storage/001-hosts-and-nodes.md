@@ -15,5 +15,7 @@ status of the cluster and establish consensus. Check out the nodes in this clust
 Once all the nodes in the cluster report a capacity, the cluster is ready for
 you to work with.
 
-https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/
+You can also use the GUI to see the nodes and their health. Just use the link
+below and login as `user: storageos` `password: storageos`
+https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/#/nodes
 

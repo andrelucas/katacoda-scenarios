@@ -1,4 +1,4 @@
-Applications can create a StorageOS volume through the CLI, API or GUI. Try creating a volume:
+Applications can create a StorageOS volume through the CLI or GUI. Try creating a volume:
 
 `storageos volume create myvol`{{execute}}
 
@@ -23,3 +23,8 @@ storage pool; try resizing the volume to 100GB:
 Inspect the volume to check the size was updated in the JSON config:
 
 `storageos volume inspect default/myvol`{{execute}}
+
+You can use see the volume that you created in the GUI. You can also
+create and delete volumes using the GUI. 
+https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/#/volumes
+

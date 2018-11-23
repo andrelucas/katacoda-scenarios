@@ -13,4 +13,7 @@ status of the cluster and establish consensus. Check out the nodes in this clust
 `storageos node ls --format "table {{.Name}}\t{{.Address}}\t{{.Capacity}}"`{{execute}}
 
 Once all the nodes in the cluster report a capacity, the cluster is ready for
-you to work with. 
+you to work with.
+
+https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/
+

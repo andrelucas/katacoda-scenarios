@@ -11,3 +11,6 @@ On start-up, StorageOS nodes communicate with each other to discover the overall
 status of the cluster and establish consensus. Check out the nodes in this cluster:
 
 `storageos node ls --format "table {{.Name}}\t{{.Address}}\t{{.Capacity}}"`{{execute}}
+
+Once all the nodes in the cluster report a capacity, the cluster is ready for
+you to work with. 

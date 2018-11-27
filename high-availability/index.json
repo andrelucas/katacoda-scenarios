@@ -53,7 +53,7 @@
         "target": "/opt/",
         "chmod": "+x"
       }
-    ],
+    ]
     }
   },
   "environment": {

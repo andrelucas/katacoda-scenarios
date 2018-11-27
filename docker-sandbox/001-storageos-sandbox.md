@@ -1,4 +1,4 @@
-This is a fully configured three node environment so you can try StorageOS in a safe, sandboxed environment.
+This is a fully configured three node environment so you can try StorageOS in a safe, sandboxed environment. The StorageOS CLI is also installed and ready for you to use.
 
 Start terminals for the second and third host:
 `ssh root@host02`{{execute T2}}

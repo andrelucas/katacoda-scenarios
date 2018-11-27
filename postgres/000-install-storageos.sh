@@ -1,11 +1,6 @@
-ssh root@host01 'bash -s' < /opt/enable-lio.sh
-echo "Script run on host01"
-ssh root@host02 'bash -s' < /opt/enable-lio.sh
-echo "Script run on host02"
-ssh root@host03 'bash -s' < /opt/enable-lio.sh
-echo "Script run on host03"
-3"
-3"
+ssh root@host01 '/opt/enable-lio.sh'
+ssh root@host02 '/opt/enable-lio.sh'
+ssh root@host03 '/opt/enable-lio.sh'
 
 CLUSTER_ID=$(ssh root@host01 "storageos cluster create")
 

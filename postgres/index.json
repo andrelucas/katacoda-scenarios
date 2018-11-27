@@ -32,6 +32,16 @@
         "file": "*",
         "target": "/opt/",
         "chmod": "+x"
+      },
+      "host02": [{
+        "file": "*",
+        "target": "/opt/",
+        "chmod": "+x"
+      },
+      "host03": [{
+        "file": "*",
+        "target": "/opt/",
+        "chmod": "+x"
       }
     ]
     }

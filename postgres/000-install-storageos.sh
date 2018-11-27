@@ -12,3 +12,5 @@ docker -H host03:2345 run -d --name storageos -e HOSTNAME=host03 -e ADVERTISE_IP
 
 scp -p ~/.ssh/id_rsa root@host01:/root/.ssh
 ssh root@host01 "echo [[HOST2_IP]] host02 >> /etc/hosts && echo [[HOST3_IP]] host03 >> /etc/hosts"
+
+export STORAGEOS_USERNAME=storageos STORAGEOS_PASSWORD=storageos STORAGEOS_HOST=[[HOST_IP]]

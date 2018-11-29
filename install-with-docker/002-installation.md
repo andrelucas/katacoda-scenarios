@@ -22,6 +22,7 @@ In the first terminal:
   --env=HOSTNAME=host01                                  \
   --env=ADVERTISE_IP=[[HOST_IP]]                         \
   --env=JOIN=[[HOST_IP]]                                 \
+  --env=LOG_LEVEL=debug                                  \
   --net=host                                             \
   --pid=host                                             \
   --privileged                                           \

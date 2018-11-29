@@ -10,7 +10,8 @@ Display the volume that you just created
 `storageos volume ls`{{execute T1}}
 
 To access the CLI you can connect to port 5705 on any StorageOS host. Here you
-can access the GUI using the following URL:
+can access the GUI using the following URL, and login as User:storageos with
+the password: storageos
 
 https://[[HOST_SUBDOMAIN]]-5705-[[KATACODA_HOST]].environments.katacoda.com/
 

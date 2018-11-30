@@ -16,14 +16,15 @@ docker run --name enable_lio                  \
 ## Install StorageOS
 
 Openshift 3.9 supports feature gates such as mount propagation, but this is not
-available in Openshift 3.7. As a result, the install of StorageOS in this
-scenario is done by container install rather than using a DaemonSet
+available in Openshift 3.7. As a result, the installation of StorageOS in this
+scenario is done via container install rather than using a DaemonSet
 
 ``
 docker run -d --name storageos                              \
            -e HOSTNAME                                      \
            -e ADVERTISE_IP=[[HOST_IP]]                      \
            -e JOIN=[[HOST_IP]]                              \
+           -e LOG_LEVEL=DEBUG                               \
            --pid=host                                       \
            --network=host                                   \
            --privileged                                     \
@@ -32,7 +33,7 @@ docker run -d --name storageos                              \
            -v /sys:/sys                                     \
            -v /var/lib/storageos:/var/lib/storageos:rshared \
            -v /run/docker/plugins:/run/docker/plugins       \
-           storageos/node:1.0.0 server
+           storageos/node:1.0.1 server
 ``{{execute}}
 
 

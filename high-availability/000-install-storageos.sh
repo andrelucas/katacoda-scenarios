@@ -3,7 +3,7 @@ ssh root@host02 '/opt/enable-lio.sh'
 ssh root@host03 '/opt/enable-lio.sh'
 
 CLUSTER_ID=$(ssh root@host01 "storageos cluster create")
-IMAGE_TAG=814fc6d-dev2918-6f11620d
+IMAGE_TAG=e312c52-460b0445
 
 # docker -H host01:2345 pull soegarots/node:$IMAGE_TAG
 docker -H host01:2345 run -d --name storageos -e LOG_LEVEL=xdebug -e HOSTNAME=host01 -e ADVERTISE_IP=[[HOST_IP]] -e JOIN=$CLUSTER_ID --net=host --pid=host --privileged --cap-add SYS_ADMIN --device /dev/fuse -v /sys:/sys -v /var/lib/storageos:/var/lib/storageos:rshared -v /run/docker/plugins:/run/docker/plugins soegarots/node:$IMAGE_TAG  server

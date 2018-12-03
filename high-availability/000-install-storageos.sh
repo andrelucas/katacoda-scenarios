@@ -3,7 +3,7 @@ ssh root@host02 '/opt/enable-lio.sh'
 ssh root@host03 '/opt/enable-lio.sh'
 
 CLUSTER_ID=$(ssh root@host01 "storageos cluster create")
-IMAGE_ID=814fc6d-dev2918-09b50a5c
+IMAGE_ID=814fc6d-dev2918-eb3b8146
 
 for n in 01 02 03; do
     case "$n" in
